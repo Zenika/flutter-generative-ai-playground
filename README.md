@@ -1,16 +1,10 @@
 # znk_generative_ai_playground
 
-A new Flutter project.
+project to play with [google_generative_ai](https://pub.dev/packages/google_generative_ai) package
 
-## Getting Started
+## Setup
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+WARNING: For now this package is not available in France without a VPN
+ 
+- create a [Google AI API key](https://ai.google.dev/tutorials/setup?hl=fr)
+- add the key when running flutter with `--dart-define=API_KEY=<YOUR_KEY>`
